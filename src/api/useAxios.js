@@ -1,5 +1,5 @@
 import axios from "axios";
-const SERVER_URL = "https://polling-backend-eight.vercel.app";
+const SERVER_URL = "http://localhost:5000";
 const useAxios = () => {
   const user = JSON.parse(localStorage.getItem("user"));
   const token = user?.token;
